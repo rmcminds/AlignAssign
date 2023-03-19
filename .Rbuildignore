@@ -6,3 +6,4 @@
 ^R/tst\.R$
 ^R/utils\.R$
 ^README.Rmd$
+^.lintr$
