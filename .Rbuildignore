@@ -5,3 +5,4 @@
 ^R/ui\.R$
 ^R/tst\.R$
 ^R/utils\.R$
+*.Rmd
