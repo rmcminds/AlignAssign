@@ -17,3 +17,8 @@ Name: Align Assign Equal
 Description: Aligns assignment '=' operators within a highlighted area.
 Binding: alignAssignEqual
 Interactive: false
+
+Name: Align Comment
+Description: Aligns comments '#' within a highlighted area.
+Binding: alignAssignComment
+Interactive: false

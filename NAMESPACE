@@ -2,4 +2,5 @@
 
 export(alignAssign)
 export(alignAssignArrow)
+export(alignAssignComment)
 export(alignAssignEqual)

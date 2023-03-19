@@ -87,6 +87,15 @@ alignAssignEqual <- function() {
   alignAssign("=")
 }
 
+#' Align a highlighted region's comments.
+#'
+#' @return Aligns the comments (\code{#}) within a
+#' highlighted region.
+#' @export
+alignAssignComment <- function() {
+  alignAssign("#")
+}
+
 #' Align a highlighted region's assignment operators.
 #'
 #' @return Aligns the single caret operators (\code{<-}) within a
@@ -111,7 +120,7 @@ guess_operator <- function(area = captureArea(capture())) {
   if (sum(nones) == 1) {
     return(names(counts)[!nones])
   } else if (sum(nones) == 2) {
-    stop("Neither `=` or `<-` are used in the selected lines")
+    stop("Neither `=`, or `<-` are used in the selected lines")
   }
 
   # if not in all or none then are either duplicated on a line? (discard)
