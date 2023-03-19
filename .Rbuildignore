@@ -7,3 +7,4 @@
 ^R/utils\.R$
 ^README.Rmd$
 ^.lintr$
+^.github$
