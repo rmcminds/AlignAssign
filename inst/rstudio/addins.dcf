@@ -22,3 +22,8 @@ Name: Align Comment
 Description: Aligns comments '#' within a highlighted area.
 Binding: alignAssignComment
 Interactive: false
+
+Name: Align Stan Comment
+Description: Aligns comments '//' within a highlighted area.
+Binding: alignAssignStanComment
+Interactive: false
