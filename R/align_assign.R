@@ -99,6 +99,10 @@ alignAssignComment <- function() {
   alignAssign("#")
 }
 
+alignAssignStanComment <- function() {
+  alignAssign("//")
+}
+
 #' Align a highlighted region's assignment operators.
 #'
 #' @return Aligns the single caret operators (\code{<-}) within a
